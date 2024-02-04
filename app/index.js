@@ -48,8 +48,10 @@ export default function App() {
               className="w-full h-40"
             />
             <View className="px-4 py-8 min-h-0">
-              <Link href={`/${item.id}`}>
-                <Text className="font-bold">{item.heading}</Text>
+              <Link href={{ pathname: "/[post]", params: { post: item.id } }}>
+                <Text className="font-bold">
+                  {item.heading} {`image${item.id}`}
+                </Text>
               </Link>
               <Text className="">{item.description}</Text>
             </View>

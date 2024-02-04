@@ -2,7 +2,7 @@
   "expo": {
     "name": "native-view-transition",
     "slug": "native-view-transition",
-    "scheme": "appscheme",
+    "scheme": "your-app-scheme",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

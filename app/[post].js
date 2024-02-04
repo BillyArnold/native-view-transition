@@ -18,7 +18,9 @@ export default function Page() {
       <Link href="/">
         <Text>Back</Text>
       </Link>
-      <Text>{post}</Text>
+      <Text>
+        {post} {`image${post}`}
+      </Text>
     </View>
   );
 }
